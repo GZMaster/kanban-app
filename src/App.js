@@ -156,6 +156,7 @@ export default function App() {
 															temp_boards[boardIndex].cards.push(card);
 														}
 													}
+													// eslint-disable-next-line no-unused-vars
 													flag = true;
 													setBoard(temp_boards);
 												}
